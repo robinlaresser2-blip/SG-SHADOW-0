@@ -330,7 +330,7 @@ class UserModel {
   static async create(ip, deviceId, platformData = {}) {
   const now = new Date();
   const userId = Math.floor(Math.random() * 999);
-  const username = 'StumblRanked#<sup>' + userId;
+  const username = 'StumbleShadow#<sup>';
   
   let ipCountry = 'US';
   let ipRegion = 'NA';
